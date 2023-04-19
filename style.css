@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    background-color: whitesmoke;
+}
+
+.contenedor-gral {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.contenedor-izq {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    color: whitesmoke;
+    background: rgb(230,230,230);
+    background: linear-gradient(180deg, rgba(230,230,230,1) 10%, rgba(78,212,251,1) 30%, rgba(5,4,31,1) 92%);
+    width: 20vw;
+    min-width: 210px;
+    text-align: center;
+}
+
+.imagen {
+    overflow:hidden;
+    min-height: 250px;
+    min-width: 210px;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+.contacto, .text {
+    height: 100vh;
+    margin-top: 10%;
+    text-shadow:  rgba(5,4,31,1) .7px .7px 1px;
+
+}
+
+.contacto ul {
+    list-style: none;
+    text-align: start;
+}
+
+.cargo {
+    font-size: 1.5rem;
+    color:rgba(5,4,31,1);
+    margin-bottom: 10%;
+    text-align: center;
+    text-shadow:  rgba(106, 152, 183, 0.814) 1px 1.2px 2px;
+}
+
+.nombre {
+    text-align: center;
+}
+
+.icon {
+    padding: 3%;
+}
+
+li {
+    padding: .5%;
+}
+
+.text {
+    text-decoration: none;
+    color: whitesmoke;
+}
