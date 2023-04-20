@@ -6,13 +6,17 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1rem;
-    background-color: whitesmoke;
+    background-color: rgb(32, 29, 29);
 }
 
 .contenedor-gral {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+   /* height: 100vh;*/
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem;
 }
 
 .contenedor-izq {
@@ -41,6 +45,7 @@ h1 {
     height: 100vh;
     margin-top: 10%;
     text-shadow:  rgba(5,4,31,1) .7px .7px 1px;
+    padding-left: 2%;
 
 }
 
@@ -72,4 +77,34 @@ li {
 .text {
     text-decoration: none;
     color: whitesmoke;
+}
+.contenedor-der {
+   /* margin: 2% 4%;*/
+    background-color: whitesmoke;
+    text-align: justify;
+    
+}
+
+.contenedor-der h2 {
+    padding: .3%;
+    background: rgb(78,212,251);
+    background: linear-gradient(270deg, rgba(78,212,251,1) 0%, rgba(5,4,31,1) 100%);
+    color: whitesmoke;
+} 
+
+.perfil, .formacion, .experiencia {
+    padding: 5%;
+} 
+
+.formacion, .experiencia{
+    padding-top: 2%;
+}
+
+.perfil h2, .formacion h2, .experiencia h2 {
+    margin-bottom: 1%;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
 }
