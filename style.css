@@ -49,9 +49,18 @@ h1 {
 
 }
 
-.contacto ul {
+.contacto ul li {
     list-style: none;
     text-align: start;
+    padding-bottom: 5%;
+}
+
+.contacto ul {
+   margin-top: 5%
+}
+
+.contenedor-izq h2 {
+    margin-top: 10%;
 }
 
 .cargo {
@@ -85,7 +94,7 @@ li {
     
 }
 
-.contenedor-der h2 {
+.contenedor-der h2, .contacto-h2 {
     padding: .3%;
     background: rgb(78,212,251);
     background: linear-gradient(270deg, rgba(78,212,251,1) 0%, rgba(5,4,31,1) 100%);
